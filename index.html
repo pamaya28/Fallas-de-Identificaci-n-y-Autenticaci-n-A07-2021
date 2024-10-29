@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A07:2021 - Fallas de Identificación y Autenticación</title>
+    <link rel="icon" href="favi.png" type="image/png">
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .title-container {
+            text-align: center;
+            background-color: #000; /* Fondo negro */
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fff; /* Texto en blanco */
+            margin: 0;
+        }
+        .team {
+            font-weight: bold;
+            color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 45%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #6a0dad;
+        }
+        h3 {
+            color: #4b0082;
+        }
+        .glossary, .bibliography, .quiz {
+            background-color: #e8e1f4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        ul {
+            padding-left: 20px;
+            color: #333;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .quiz p, .quiz ul {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title-container">
+        <h1>A07:2021 - Fallas de Identificación y Autenticación</h1>
+    </div>
+    <p class="team">Equipo de trabajo: Grupo 1</p>
+
+    <div class="container">
+        <!-- Aquí se incluyen las tarjetas de contenido, igual que en el código anterior -->
+
+
+        <div class="card">
+            <h2>1. Summary (Resumen en Inglés)</h2>
+            <p>Failures in identification and authentication (I&A) are significant vulnerabilities in cybersecurity, as they can enable unauthorized access to systems, services, and data. Identification refers to establishing a user’s identity (e.g., a username), while authentication confirms that identity (e.g., via a password, token, or biometrics). Issues arise when these processes are improperly implemented or exploited, leading to risks like data breaches, identity theft, and unauthorized system modifications.
+
+                Key causes of I&A failures include weak passwords, ineffective multi-factor authentication (MFA), poor session management, and vulnerabilities in biometric systems. Weak passwords, for instance, can be easily guessed or cracked, allowing attackers to impersonate legitimate users. Insufficient MFA leaves systems vulnerable because they rely on single verification methods, which are easier to compromise.
+                
+                To mitigate these issues, organizations can implement strong password policies, enforce MFA, improve biometric safeguards, and regularly monitor authentication logs to detect anomalies. Enhanced I&A practices are critical to securing sensitive information and maintaining trust in digital systems.</p>
+            <div class="image-container">
+                <img src="suma.png" alt="imagen" width="500">
+            </div>
+        </div>
+
+        <div class="card glossary">
+            <h2>2. Glosario</h2>
+            <ul>
+                <li><strong>Authentication : </strong> The process of verifying a user's identity to grant access to systems or data, often through passwords, biometrics, or tokens. </li>
+                <li><strong>Multi-Factor Authentication (MFA) :</strong> A security system that requires multiple forms of verification (such as a password and a fingerprint) to enhance authentication strength.</li>
+                <li><strong>Biometrics:</strong> Physical characteristics (e.g., fingerprints, facial recognition) used as authentication factors to confirm a user's identity.</li>
+                <li><strong>Session Management: </strong>  The method of controlling and maintaining user sessions on a network or application, ensuring secure access during the user's active session. </li>
+                <li><strong>Access Control:</strong> Mechanisms that regulate who can view, use, or manipulate resources in a system, often based on roles or privileges.</li>
+                
+            </ul>
+        </div>
+
+      
+        <div class="card">
+            <h2>Ataques a Redes</h2>
+            
+            <h3>1. ¿En qué consiste?</h3>
+            <p>Los ataques a redes son intentos maliciosos de obtener acceso no autorizado, interrumpir, manipular o interceptar datos que se transmiten en una red de computadoras. Estos ataques pueden estar orientados a robar información, alterar comunicaciones, o afectar la disponibilidad de servicios en la red.</p>
+            
+            <h3>2. Características</h3>
+            <ul>
+                <li>Intercepción de tráfico: El atacante puede capturar datos transmitidos en la red sin que los usuarios lo noten, con técnicas como el sniffing.</li>
+                <li>Interrupción de servicio: Se busca hacer inaccesible un recurso o servicio en la red mediante ataques como Denegación de Servicio (DoS), sobrecargando la red con tráfico falso</li>
+               
+            </ul>
+            
+            <h3>3. Escenarios</h3>
+            <p>Un atacante lanza un ataque de "Man-in-the-Middle" (MitM) en una red Wi-Fi pública. Captura y modifica la información transmitida entre un usuario y un servidor, logrando interceptar credenciales de acceso a cuentas bancarias y otros datos sensibles sin que el usuario lo note.</p>
+            
+            <h3>4. Controles Proactivos</h3>
+            <ul>
+                <li>Cifrado de datos en tránsito: Utilizar protocolos seguros como HTTPS o VPN para proteger los datos mientras se transmiten, dificultando la intercepción de tráfico.</li>
+                <li>Filtrado de tráfico y detección de intrusiones: Implementar sistemas de detección de intrusiones (IDS) y firewalls para monitorear el tráfico en tiempo real y bloquear actividades sospechosas.</li>
+               
+            </ul>
+            
+            <h3>5. ¿Cómo se contrarrestan?</h3>
+            <p>Los ataques a redes se pueden contrarrestar con la implementación de medidas como el uso de cifrado fuerte para proteger la confidencialidad de los datos, autenticación sólida para asegurar que solo usuarios autorizados puedan acceder a la red, y el monitoreo constante con herramientas de detección de amenazas. También es fundamental capacitar a los usuarios para evitar redes públicas inseguras y fomentar buenas prácticas de seguridad.</p>
+        </div>
+
+        <div class="bibliography">
+            <h3>Bibliografía</h3>
+            <ul>
+                <li><a href="https://tirescue.com/fallas-en-la-identificacion-y-autenticacion/" target="_blank">Fuente 1</a></li>
+                <li><a href="https://www.piranirisk.com/es/blog/ataques-ciberneticos-causas-y-consecuencias" target="_blank">Fuente 2</a></li>
+                <div class="image-container">
+                    <img src="fu1.png" alt="imagen" width="500">
+                </div>
+            </ul>
+        </div>
+
+        <div class="card quiz">
+            <h3>7. Pregunta para el Parcial</h3>
+            <p><strong>Pregunta:</strong> ¿Cuál de las siguientes opciones describe mejor un ataque "Man-in-the-Middle" (MitM) en redes?</p>
+            <ul>
+                <li>A) Un ataque que busca sobrecargar un servidor con tráfico falso para hacerlo inaccesible.</li>
+                <li>B) Un ataque en el que el atacante intercepta y altera la comunicación entre dos partes sin que estas lo sepan.</li>
+                <li>C) Un ataque que explota vulnerabilidades en software para obtener acceso no autorizado a un sistema.</li>
+                <li>D) Un ataque que utiliza malware para robar información de dispositivos individuales sin conectarse a una red</li>
+            </ul>
+            <p><strong>Respuesta seleccionada:</strong> B) Un ataque en el que el atacante intercepta y altera la comunicación entre dos partes sin que estas lo sepan.</p>
+        </div>
+
+        
+        <div class="card">
+            <h2>Top 10 de OWASP: Fallas de Identificación y Autenticación</h2>
+            
+            <h3>1. ¿En qué consiste?</h3>
+            <p>Las fallas de identificación y autenticación se refieren a vulnerabilidades en los mecanismos que aseguran la identidad de los usuarios en un sistema. Estas fallas pueden permitir a atacantes acceder a cuentas o recursos sensibles al eludir los controles de seguridad, comprometiendo la integridad y confidencialidad de la información.</p>
+            
+            <h3>2. Vectores de Ataque</h3>
+            <ul>
+                <li>Fuerza bruta: Los atacantes utilizan herramientas automatizadas para intentar adivinar credenciales de acceso (como contraseñas) mediante combinaciones sistemáticas, hasta encontrar la correcta.</li>
+                <li>Intercepción de credenciales: Mediante ataques como el phishing o "Man-in-the-Middle", los atacantes pueden interceptar información de inicio de sesión, como contraseñas y tokens de autenticación.</li>
+                
+            </ul>
+            
+            <h3>3. Características</h3>
+            <ul>
+                <li>Autenticación débil: Uso de contraseñas simples o fácilmente adivinables, así como la falta de métodos de autenticación multifactor (MFA).</li>
+                <li>Mala gestión de sesiones: Falta de cierre de sesión adecuado o uso de sesiones que no expiran, permitiendo que un atacante se apodere de sesiones activas.</li>
+               
+            </ul>
+            
+            <h3>4. Casos Más Conocidos</h3>
+            <p>Caso de Adobe (2013): Una violación de datos donde se expusieron más de 150 millones de cuentas debido a contraseñas débiles y falta de cifrado.</p>
+            <p>Caso de Twitter (2020): Acceso no autorizado a cuentas de alto perfil mediante ingeniería social, lo que llevó a la exposición de credenciales.</p>
+            
+            <h3>5. ¿Cómo se contrarrestan?</h3>
+            <li>Implementar políticas de contraseñas robustas: Obligar a los usuarios a crear contraseñas complejas y fomentar el uso de administradores de contraseñas.</li>
+            <li>Autenticación multifactor (MFA): Añadir una capa adicional de seguridad que requiera más de un método de verificación para el acceso, reduciendo el riesgo de acceso no autorizado.</li>
+            <li>Gestión adecuada de sesiones: Asegurar que las sesiones expiren después de un período de inactividad y proporcionar opciones para cerrar sesión de manera segura.</li>
+        </div>
+
+        <div class="bibliography">
+            <h3>Bibliografía</h3>
+            <ul>
+                <li><a href="https://owasp.org/Top10/es/A07_2021-Identification_and_Authentication_Failures/" target="_blank">Fuente 1</a></li>
+                <li><a href="https://ciberninjas.com/owasp-a07-2021/" target="_blank">Fuente 2</a></li>
+                <div class="image-container">
+                    <img src="fu2.png" alt="imagen" width="500">
+                </div>
+            </ul>
+        </div>
+
+        <div class="card quiz">
+            <h3>7. Pregunta para el Parcial</h3>
+            <p><strong>Pregunta:</strong> ¿Cuál de las siguientes opciones describe mejor una de las fallas de identificación y autenticación más comunes en aplicaciones web?</p>
+            <ul>
+                <li>A)  El uso de contraseñas complejas y únicas para cada cuenta de usuario.a</li>
+                <li>B)  La implementación de métodos de autenticación multifactor para aumentar la seguridad.</li>
+                <li>C)  La posibilidad de que un atacante adivine contraseñas mediante ataques de fuerza bruta.</li>
+                <li>D)  El cierre automático de sesiones inactivas después de un período de tiempo determinado.</li>
+            </ul>
+            <p><strong>Respuesta seleccionada:</strong> C)  La posibilidad de que un atacante adivine contraseñas mediante ataques de fuerza bruta.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
